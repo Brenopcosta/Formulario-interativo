@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    background:#161837 ;
+}
+
+header{
+    width:100%;
+}
+
+/*#LOGO{
+    margin:0 auto;
+    width:10%;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 40px;
+}*/
+
+#boas-vindas{
+    margin: auto;
+    margin-top: 50px;
+    color:white;   
+    width:215px;
+    padding: 10px;
+    font-size: 30px ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+
+#login{
+    background:#00a8f3;
+    margin:0 auto;
+    margin-bottom:10px;
+    border-radius:10px;
+    padding: 10px;
+    margin-top:10px;
+    width:315px; /* de 215 para 300*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#esquecer{
+    background:#00a8f3;
+    margin:0 auto;
+    margin-bottom:10px;    
+    border-radius:10px;
+    padding: 10px;
+    width:315px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#cadastrar{
+    background:#00a8f3;
+    margin:0 auto;
+    margin-bottom:10px;
+    border-radius:10px;
+    padding: 10px;
+    width:315px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.title{
+    background:#00a8f3;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 3px;
+}
+
+
+/*------------------------------- LOGIN-------------------------*/
+#campo_email-login{
+    background:#00a8f3; 
+    border:hidden;
+    border-bottom :1px solid black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin:5px;
+}
+
+#senha-login{
+    background:#00a8f3; 
+    border:hidden;
+    border-bottom :1px solid black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 5px;
+}
+
+#btn-login{
+    background:#00a8f3; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 2px solid #161837;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btn-login:hover{
+    background:#99ebff; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 2px solid #161837;
+    padding: 5px;
+    border-radius: 5px;
+    animation-name: animacao-botao;
+    animation-duration: 0.9s;
+}
+
+@keyframes animacao-botao{
+    from{ 
+        background:#00a8f3;
+    }
+    to{
+        background:#99ebff;
+    }
+}
+
+#campo_nome_singin{
+    background:#00a8f3; 
+    border:hidden;
+    border-bottom :1px solid black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin:5px;
+}
+
+#campo_email_singin{
+    background:#00a8f3; 
+    border:hidden;
+    border-bottom :1px solid black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin:5px;
+}
+
+
+/*------------------------------- LOGIN-------------------------*/
+#hidden-login{
+    display: none;
+}
+#hidden-singin{
+    display: none;
+}
